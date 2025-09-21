@@ -1,0 +1,188 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    align-items: center;
+}
+
+body {
+    background: rgb(106, 40, 136);
+    color: white;
+    height: 100vh;
+    font-family:'Roboto';
+}
+
+#cabecalho {
+    height: 45px;
+    padding: 10px;
+    background: rgb(87, 25, 77);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+li {
+    list-style: none;
+    display:inline-block;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+section, main {
+    padding-top: 55px;
+    text-align: center;
+}
+
+h3 {text-align: center;}
+
+#titulo {
+    background: rgb(212, 7, 174);
+    border-radius: 10px;
+    text-align: center;
+    padding: 8px;
+    width: 200px;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* centraliza todas */
+    gap: 5px; /* espaço entre elas */
+    flex-wrap: wrap; /* quebra linha se não couber */
+}
+
+.fotitas {
+    width: 150px;   /* deixa menor para caber todas */
+    height: 400px;  /* formato em pé */
+    flex: 1;
+    transition: flex 0.4s ease;
+    cursor: pointer;
+    background-size: 200%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.fotitas:hover {
+    flex: 2;
+    background-size: 100%;
+    background-position: 40% center;
+}
+
+.fotitas img {
+    width: 100%;       /* ocupa toda a largura */
+    height: 100%;      /* ocupa toda a altura */
+    object-fit: cover; /* preenche sem distorcer */
+}
+
+input[type="button"] {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0); 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+div {
+    text-align: center;
+} 
+#foto-amigos {
+    display: block;
+    margin: 15px auto;
+    max-width: 100px; /* ajusta o tamanho */
+    border-radius: 30px;
+    box-shadow: 0 0 10px  rgb(212, 7, 174);
+}
+
+#foto-apaixonados {
+    display: block;
+    margin: 15px auto;
+    max-width: 100px; /* ajusta o tamanho */
+    border-radius: 30px;
+    box-shadow: 0 0 10px  rgb(212, 7, 174);
+}
+
+#foto-namorados {
+    display: block;
+    margin: 15px auto;
+    max-width: 100px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px  rgb(212, 7, 174);
+}
+
+#foto-ano {
+    display: block;
+    margin: 15px auto;
+    max-width: 100px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px  rgb(212, 7, 174);
+}
+
+#foto-ultimo {
+    display: block;
+    margin: 15px auto;
+    max-width: 100px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px  rgb(212, 7, 174);
+}
+
+.caixa-amigos {
+    background: rgb(215, 215, 215);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.627);
+    color: black;
+    min-height: 100px;
+}
+
+.caixa-apaixonados {
+    background: rgb(215, 215, 215);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.627);
+    color: black;
+    min-height: 100px;
+}
+
+.caixa-namorados {
+    background:rgb(215, 215, 215);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.627);
+    color: black;
+    min-height: 100px;
+}
+
+.caixa-ano {
+    background: rgb(215, 215, 215);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.627);
+    color: black;
+}
+
+.caixa-ultimo {
+    background:rgb(215, 215, 215) ;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.627) ;
+    color: black;
+}
